@@ -1,2 +1,6 @@
-# TheMarginalView
-The Marginal View explores economic questions where theory meets data. It features empirical analysis, research notes, and quantitative perspectives designed to clarify complex economic issues and ground debate in measurable reality.
+# The Marginal View
+
+An independent research platform focused on empirical economic analysis,
+econometrics, and data driven insights.
+
+This site serves as an academic notebook and research portfolio.
