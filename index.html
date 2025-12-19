@@ -1,155 +1,126 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>The Marginal View — Economics, data, applied research</title>
-  <meta name="description" content="The Marginal View — independent research and data-driven analysis on real world economic questions." />
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Use system fonts primarily; optionally load Inter if desired -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>The Marginal View</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Marginal View. Empirical Economic Analysis and Data Driven Insights.">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <div class="container">
-      <div class="brand">
-        <!-- Minimal SVG mark, neutral and geometric -->
-        <svg class="logo" width="36" height="36" viewBox="0 0 36 36" aria-hidden="true" focusable="false">
-          <rect x="2" y="2" width="32" height="32" rx="4" fill="var(--beige)"></rect>
-          <path d="M8 26 L18 12 L28 22" stroke="var(--dark)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <div>
-          <h1 class="site-title">The Marginal View</h1>
-          <p class="site-subtitle">Economics • Data • Applied Research</p>
-        </div>
-      </div>
-      <nav class="site-nav" aria-label="Primary">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#writing">Writing</a>
-        <a href="#contact">Contact</a>
-      </nav>
+  <!-- HERO -->
+  <section class="hero">
+    <h1>The Marginal View</h1>
+    <p class="subtitle">Empirical Economic Analysis and Data Driven Insights</p>
+
+    <div class="pillars">
+      <span>Serious and Analytical</span>
+      <span>Data Focused</span>
+      <span>Academic Excellence</span>
     </div>
-  </header>
+  </section>
 
-  <main id="main">
-    <section id="hero" class="hero">
-      <div class="container hero-inner">
-        <h2 class="hero-title">Rigorous empirical analysis on economic questions that matter.</h2>
-        <p class="hero-lead">I combine econometrics, causal inference, and large-scale data to answer policy‑relevant questions. Clear methods, reproducible code, and concise interpretation.</p>
-        <p class="hero-cta">
-          <a class="btn" href="#research">Explore research</a>
-          <a class="btn btn-secondary" href="#writing">Read notes</a>
-        </p>
-      </div>
-    </section>
-
-    <section id="about" class="section about">
-      <div class="container narrow">
-        <h3 class="section-title">About</h3>
-        <p>I am an applied economist with a focus on econometrics and data-driven policy analysis. My work emphasizes identification, transparent assumptions, and reproducibility. I enjoy turning complex data into clear insights for academics, policymakers, and informed public debate.</p>
-        <ul class="about-list">
-          <li><strong>Expertise:</strong> Causal inference, panel methods, program evaluation, forecasting</li>
-          <li><strong>Tools:</strong> R, Python, Stata, SQL, reproducible workflows</li>
-          <li><strong>Approach:</strong> Pre-analysis plans, robustness checks, transparent code & data</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="research" class="section research">
-      <div class="container">
-        <h3 class="section-title">Research & Projects</h3>
-        <p class="muted">Selected work emphasizing empirical depth and data-driven storytelling.</p>
-
-        <div class="projects-grid">
-          <article class="project-card reveal">
-            <div class="project-meta">
-              <time datetime="2025-06-01">Jun 2025</time>
-              <span class="tag">Applied Econometrics</span>
-            </div>
-            <h4 class="project-title">Labor market effects of targeted training programs</h4>
-            <p class="project-excerpt">A case study using administrative data and difference-in-differences with synthetic controls to estimate impacts on long-term earnings.</p>
-            <p class="project-links">
-              <a href="#" class="link">Case study</a>
-              <a href="#" class="link">Code</a>
-            </p>
-          </article>
-
-          <article class="project-card reveal">
-            <div class="project-meta">
-              <time datetime="2024-11-15">Nov 2024</time>
-              <span class="tag">Macroeconomics</span>
-            </div>
-            <h4 class="project-title">Inflation persistence across regions</h4>
-            <p class="project-excerpt">Panel VARs and local projection methods to measure regional transmission of shocks and heterogeneity across income groups.</p>
-            <p class="project-links">
-              <a href="#" class="link">Paper</a>
-              <a href="#" class="link">Data appendix</a>
-            </p>
-          </article>
-
-          <article class="project-card reveal">
-            <div class="project-meta">
-              <time datetime="2023-08-01">Aug 2023</time>
-              <span class="tag">Policy Evaluation</span>
-            </div>
-            <h4 class="project-title">Evaluating small-business loan programs</h4>
-            <p class="project-excerpt">Regression discontinuity and matching to measure credit access effects on survival and employment.</p>
-            <p class="project-links">
-              <a href="#" class="link">Summary</a>
-              <a href="#" class="link">Replication</a>
-            </p>
-          </article>
-        </div>
-
-        <div class="more">
-          <a class="link-muted" href="#contact">Contact to request full working papers or datasets →</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="writing" class="section writing">
-      <div class="container narrow">
-        <h3 class="section-title">Writing & Notes</h3>
-        <p class="muted">Short essays, methodological notes, and research commentary.</p>
-
-        <ul class="notes-list">
-          <li class="reveal">
-            <a class="note-link" href="#">Why pre-analysis plans still matter in observational work</a>
-            <span class="note-meta">Mar 2025 · Methodology</span>
-          </li>
-          <li class="reveal">
-            <a class="note-link" href="#">Interpreting local projections in non-stationary environments</a>
-            <span class="note-meta">Dec 2024 · Working note</span>
-          </li>
-        </ul>
-
-        <p class="muted small">Notes are short, referenced, and linked to reproducible code where possible.</p>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact">
-      <div class="container narrow">
-        <h3 class="section-title">Contact</h3>
-        <p>If you'd like copies of papers, code, or to discuss collaboration, please reach out:</p>
-        <ul class="contact-list">
-          <li>Email: <a href="mailto:you@domain.com">you@domain.com</a></li>
-          <li>LinkedIn: <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn profile</a></li>
-          <li>GitHub: <a href="https://github.com/GC-Roberts" target="_blank" rel="noopener">GC-Roberts</a></li>
-        </ul>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
+  <!-- ABOUT -->
+  <section class="light">
     <div class="container">
-      <p class="small muted">© <span id="year"></span> The Marginal View — Independent research and analysis. Built with reproducibility in mind.</p>
+      <h2>About The Marginal View</h2>
+      <p>
+        The Marginal View is an independent research platform committed to rigorous
+        econometrics and empirical economic analysis. The work focuses on translating
+        complex data into structured insights for economists, data scientists, and
+        policy oriented thinkers who value evidence and clarity.
+      </p>
+      <p>
+        With a foundation in advanced statistical methodologies and economic theory,
+        the platform prioritises careful interpretation over surface level conclusions.
+      </p>
     </div>
+  </section>
+
+  <!-- DEFINING WORK -->
+  <section class="dark">
+    <div class="container grid">
+      <div>
+        <h3>Econometrics Background</h3>
+        <p>Application of statistical and quantitative methods to economic data.</p>
+      </div>
+      <div>
+        <h3>Empirical Analysis</h3>
+        <p>Evidence based research connecting theory to measurable outcomes.</p>
+      </div>
+      <div>
+        <h3>Real World Questions</h3>
+        <p>Engagement with contemporary economic challenges through data.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section class="light">
+    <div class="container">
+      <h2>Research and Projects</h2>
+      <p>
+        Applied research and analytical projects across multiple economic domains,
+        emphasising transparency, discipline, and economic relevance.
+      </p>
+
+      <div class="projects">
+        <div class="project">Project Title One</div>
+        <div class="project">Project Title Two</div>
+        <div class="project">Project Title Three</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WRITING -->
+  <section class="dark">
+    <div class="container">
+      <h2>Writing and Notes</h2>
+      <p>
+        An academic notebook for shorter essays, methodological reflections,
+        and structured economic commentary. These pieces often capture
+        preliminary findings and evolving ideas.
+      </p>
+    </div>
+  </section>
+
+  <!-- METHODS -->
+  <section class="light">
+    <div class="container">
+      <h2>Methodological Approach</h2>
+      <ul>
+        <li>Econometric modelling and inference</li>
+        <li>Regression and time series analysis</li>
+        <li>Causal inference frameworks</li>
+        <li>Data cleaning and validation</li>
+      </ul>
+
+      <h3>Tools</h3>
+      <p>R · Stata · Python · Excel · Web based research presentation</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="dark">
+    <div class="container">
+      <h2>Connect</h2>
+      <p>
+        For academic discussion, research collaboration, or professional engagement,
+        thoughtful correspondence is welcome.
+      </p>
+      <p>Email · LinkedIn · GitHub</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      The Marginal View is an academic notebook and a record of disciplined inquiry,
+      prioritising empirical integrity above all else.
+    </p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
