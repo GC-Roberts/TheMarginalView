@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+  background-color: #111;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+
+/* SECTIONS */
+section {
+  padding: 90px 20px;
+}
+
+.light {
+  background-color: #f4f4f4;
+  color: #111;
+}
+
+.dark {
+  background-color: #111;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  opacity: 0.85;
+  margin-bottom: 40px;
+}
+
+.pillars {
+  display: flex;
+  gap: 30px;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.grid h3 {
+  margin-bottom: 10px;
+}
+
+/* PROJECTS */
+.projects {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: #fff;
+  transition: transform 0.2s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+/* TEXT */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 60px 20px;
+  text-align: center;
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
