@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Revisiting Wagner’s Law in South Africa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An econometric analysis of Wagner’s Law in South Africa, 1960–2024.">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<section class="light">
+  <div class="container">
+
+    <h1>Revisiting Wagner’s Law: An Econometric Analysis for South Africa (1960–2024)</h1>
+    <p><strong>Giovanni C. Roberts</strong> · 2025</p>
+
+    <h2>Abstract</h2>
+    <p>
+      This paper re-examines Wagner’s Law in a South African context over the period
+      1960–2024. Wagner’s Law suggests that as real national income increases,
+      government final consumption expenditure expands more than proportionally
+      due to a higher income elasticity of demand for collective goods.
+    </p>
+
+    <p>
+      Using annual data on real GDP and general government final consumption
+      expenditure at constant 2015 prices, this study applies stationarity testing,
+      autoregressive corrected estimation, and vector autoregression to assess both
+      long-run elasticity and short-run causality. The findings contribute to the
+      fiscal-growth literature in developing economies and inform South Africa’s
+      fiscal policy challenges.
+    </p>
+
+    <h2>Introduction</h2>
+    <p>
+      The role of government in modern economies is extensive and multifaceted.
+      Two dominant theoretical frameworks shape the debate on public expenditure
+      and economic growth: Wagner’s Law and Keynesian theory.
+    </p>
+
+    <p>
+      While Wagner’s Law posits that government spending rises disproportionately
+      as income grows, Keynesian theory asserts that public expenditure can act as
+      an exogenous driver of economic activity. South Africa’s fiscal trajectory
+      since 1960 provides an ideal empirical setting to evaluate these competing
+      perspectives.
+    </p>
+
+    <h2>Theoretical Framework and Literature</h2>
+    <p>
+      Wagner’s Law rests on three foundational assumptions: expanding legal and
+      administrative functions, rising externalities from industrialization, and
+      high income elasticity of demand for public goods. Collectively, these imply
+      an increasing government share as economies develop.
+    </p>
+
+    <p>
+      Empirical evidence remains mixed. While advanced economies often exhibit
+      elasticity coefficients exceeding unity, developing economies display
+      heterogeneous results due to institutional constraints and structural
+      dynamics. For South Africa, prior studies report elasticity above one but
+      ambiguous causality.
+    </p>
+
+    <h2>Data and Methodology</h2>
+    <p>
+      Annual observations from 1960–2024 on real GDP and government final
+      consumption expenditure were obtained from the World Bank Development
+      Indicators. Series were expressed in constant 2015 prices and transformed
+      into natural logarithms.
+    </p>
+
+    <p>
+      Stationarity was assessed using the Augmented Dickey–Fuller test. Given
+      evidence of autocorrelation, elasticity was estimated using an AR(1)
+      corrected GLS model. A bivariate VAR framework was employed to examine
+      Granger causality between fiscal expenditure and output.
+    </p>
+
+    <h2>Results</h2>
+    <p>
+      The estimated elasticity coefficient of government expenditure with respect
+      to GDP is approximately 1.20, indicating strong support for Wagner’s Law.
+      This suggests that public expenditure in South Africa rises more than
+      proportionally with income over the long run.
+    </p>
+
+    <p>
+      Granger causality tests reveal that government expenditure significantly
+      predicts future GDP, while GDP does not significantly predict government
+      spending. This supports Keynesian dynamics in the short run, where fiscal
+      policy acts as a catalyst for economic activity.
+    </p>
+
+    <h2>Policy Implications</h2>
+    <p>
+      Fiscal policy must balance long-term expenditure growth with short-term
+      stabilization objectives. Strong elasticity implies that without corrective
+      measures, government spending may outpace revenue growth.
+    </p>
+
+    <p>
+      During economic downturns, targeted fiscal interventions and automatic
+      stabilizers play a crucial role in mitigating demand shocks. However,
+      expenditure growth must be carefully calibrated to preserve fiscal
+      sustainability and avoid crowding out private investment.
+    </p>
+
+    <h2>Conclusion</h2>
+    <p>
+      This study provides empirical support for Wagner’s Law in South Africa while
+      also validating Keynesian causality in the short run. The coexistence of
+      these dynamics underscores the complexity of the fiscal-growth nexus and
+      highlights the need for integrated and context-sensitive fiscal strategies.
+    </p>
+
+    <h2>References</h2>
+    <p>
+      Arora (2006); Hortin (2006); Phiri (2016); Siebrits (2023); Mehta (2024);
+      South African Reserve Bank (2020).
+    </p>
+
+  </div>
+</section>
+
+</body>
+</html>
