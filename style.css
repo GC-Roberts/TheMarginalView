@@ -131,3 +131,17 @@ footer {
 .contact-links a:hover {
   border-bottom: 1px solid currentColor;
 }
+/* FORCE project cards to look identical */
+.projects a.project {
+  display: block;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  color: #111111 !important;
+  text-decoration: none !important;
+}
+
+.projects a.project:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
