@@ -197,3 +197,31 @@ footer {
 .project-nav a:hover {
   text-decoration: underline;
 }
+/* TITLE + DOWNLOAD BUTTON */
+.title-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.title-sep {
+  color: #777;
+  font-size: 1.2rem;
+}
+
+.download-btn {
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  background: transparent;
+  color: #333;
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.download-btn:hover {
+  background: #eee;
+  border-color: #999;
+}
