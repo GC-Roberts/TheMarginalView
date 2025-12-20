@@ -13,6 +13,20 @@ body {
 }
 
 /* NAVIGATION */
+.nav-logo {
+  height: 30px;
+  width: auto;
+  display: block;
+  opacity: 0.9;
+}
+
+.hero-logo {
+  width: 260px;
+  max-width: 80%;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+}
+
 .navbar {
   position: fixed;
   top: 0;
